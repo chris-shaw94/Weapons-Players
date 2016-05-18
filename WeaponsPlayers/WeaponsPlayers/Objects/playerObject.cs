@@ -11,11 +11,11 @@ namespace WeaponsPlayers
         public string name;
         public int lives;
         public List<weaponObject> inventory; 
-        public playerObject(string name, int lives, List<weaponObject> inventory)
+        public playerObject(string name, int lives)
         {
             this.name = name;
             this.lives = lives;
-            this.inventory = inventory;
+            this.inventory = new List<weaponObject>();
         }
 
         public void makeInv( weaponObject weap1, weaponObject weap2, weaponObject weap3)

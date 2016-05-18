@@ -19,14 +19,10 @@ namespace WeaponsPlayers
             weaponObject brassKnuckles = new weaponObject("Brass Knuckles", 130, 50, 30.5);
             weaponObject whip = new weaponObject("Whip", 140, 80, 40);
             weaponObject chainWhip = new weaponObject("Chain Whip", 170, 110, 85);
-
-            List<weaponObject> fighterInv = new List<weaponObject>();
-            List<weaponObject> gunnerInv = new List<weaponObject>();
-            List<weaponObject> meleeInv = new List<weaponObject>();
-
-            playerObject Fighter = new playerObject("Swordman", 3, fighterInv);
-            playerObject Gunner = new playerObject("Shootman", 2, gunnerInv);
-            playerObject Melee = new playerObject("Punch/whip-man", 1, meleeInv);
+            
+            playerObject Fighter = new playerObject("Swordman", 3);
+            playerObject Gunner = new playerObject("Shootman", 2);
+            playerObject Melee = new playerObject("Punch/whip-man", 1);
 
             Fighter.makeInv(sword, axe, hammer);         
             Gunner.makeInv(pistol, boomstick, bfg);
@@ -40,7 +36,6 @@ namespace WeaponsPlayers
 
             foreach(playerObject x in players)
             {
-                Console.ReadLine();
                 Console.Write(x.name);
                 Console.Write(" is carrying:");
                 Console.WriteLine();
@@ -49,8 +44,9 @@ namespace WeaponsPlayers
                     Console.WriteLine(w.name);
                 }
                 Console.WriteLine("And has: ");
-                Console.Write(x.lives);
-                Console.Write(" lives.");
+                Console.WriteLine(x.lives + " lives.");
+                Console.WriteLine("");
+                Console.ReadLine();
             }
             Console.ReadLine();
         }

@@ -45,9 +45,7 @@
   <ItemGroup>
     <Compile Include="Objects\playerObject.cs" />
     <Compile Include="Objects\weaponObject.cs" />
-    <Compile Include="..\..\..\..\..\Desktop\Program.cs">
-      <Link>Program.cs</Link>
-    </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
