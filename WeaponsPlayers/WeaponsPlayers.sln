@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeaponsPlayers", "WeaponsPlayers\WeaponsPlayers.csproj", "{22C6DB1A-44E2-49A6-9835-1B3B56198889}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeaponsPlayers", "..\Documents\GitHub\Weapons-Players\WeaponsPlayers\WeaponsPlayers\WeaponsPlayers.csproj", "{22C6DB1A-44E2-49A6-9835-1B3B56198889}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
