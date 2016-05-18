@@ -9,7 +9,7 @@ namespace WeaponsPlayers
     public class playerObject
     {
         public string name;
-        int lives;
+        public int lives;
         public List<weaponObject> inventory; 
         public playerObject(string name, int lives, List<weaponObject> inventory)
         {
